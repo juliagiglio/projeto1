@@ -3,7 +3,7 @@
 ## Descrição
 
 ### O que faz?
-Este projeto implementa um sistema embarcado baseado no microcontrolador 8051 para controle de rotação de um motor DC e contagem de voltas. A contagem é realizada por meio de um sensor óptico conectado ao pino P3.5, sendo exibida em um display de 7 segmentos.
+Este projeto implementa um sistema embarcado baseado no microcontrolador 8051 para controle de rotação de um motor DC e contagem de voltas. A contagem é realizada por meio de um sensor do pino P3.5, sendo exibida em um display de 7 segmentos.
 
 O sistema também permite alterar o sentido de rotação do motor e garante que a contagem exibida esteja sempre coerente com o sentido atual de operação.
 
@@ -74,13 +74,11 @@ Além disso, simula um sistema real de monitoramento de rotação de motores com
 ## Instruções de Uso
 
 1. Carregar o código no simulador EdSim51  
-2. Montar o código (ASSM)  
-3. Configurar o motor no painel do simulador  
-4. Executar o programa (RUN)  
-5. Observar:  
+2. Executar o programa (RUN)  
+3. Observar:  
    - Contagem no display (0 a 9)  
    - Indicação de sentido pelo ponto decimal  
-6. Utilizar o switch (P2.0) para:  
+4. Utilizar o switch (P2.0) para:  
    - Alternar o sentido de rotação  
    - Reiniciar a contagem automaticamente  
 
